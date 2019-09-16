@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_17030965.css"?> 
+<!DOCTYPE  It_company SYSTEM "catalog_17030965.dtd">
+
+
+<It_company Name="JDA Software">
+  <Header>
+    <Company_Details>
+      <CName>JDA Software</CName>
+      <Address>Address: Balaju,Kathmandu</Address>
+      <Telephone_Number>Phone: 01-40367908</Telephone_Number>
+      <Email>Email: abc123@gmail.com</Email>
+      <Website>Website: </Website>
+      <Establishment>Estb: 2002</Establishment>
+      <Logo/>
+    </Company_Details>
+  </Header>
+  <Executive_Chief id="EMP01">
+    <Title>Executive Chief</Title>
+    <FullName>Full Name: Raja Ram</FullName>
+    <P_address>Permanent Address: Balaju,Kathmandu</P_address>
+    <Mail>Email: abcy@gmail.com</Mail>
+    <Phone>987645345</Phone>
+    <Word>His Words</Word>
+    <His_Words>JDA is the home for me and all the members working under me are my family. This company has given me so much hope and power in my life. If i was not offered this position because of my hard work i would be still a high school teacher. Further, I also want to change the lives of the people, make them work in positive environment and hope this company grows more in future. I believe in hard work and passion for the work and i want to see that passion in my employees. </His_Words>
+    <About>About Mr.Raja Ram</About>
+    <Description>Raja ram is the Executive chief and co-founder of JDA software company. He started his career in a small IT company after completing his bachelors in Information technology. While working for a IT company he also started teaching the college student at the morning. Later in 2002 he was offered to be the Executive chief by the company because of his hard work and passion towards his work. He started in this company where there was limited number of team member but today it has got more than 200 staffs working under him. From the past few years he has increased his partnership nationally and internationally also.In 2011 Raja ram got the "Best worker award" for getting most projects and doing at it best.&#13;
+</Description>
+  </Executive_Chief>
+  <Department_name>
+    <Department id="D123">
+      <Name>Research and Development</Name>
+      <Room>Room no: 01</Room>
+      <Employee_no>No of Employees: 29</Employee_no>
+      <Employee_Positions>Position of Employee: Researcher | Developer;
+</Employee_Positions>
+      <Department_work>A company's research and development department plays an integral role in the life cycle of a product. Before a new product is developed,a research and development departments conducts a through study to support the project in our company. The new product is developed based on the requirements and ideas created during the research period. The existing product or project is also looked by research and development team. They evaluate the product to see whether the product is still functional or not. It also handles the quality check of the products created by the company.</Department_work>
+    </Department>
+  </Department_name>
+  <Department_name>
+    <Department id="D124">
+      <Name>Marketing</Name>
+      <Room>Room no: 01|15|17</Room>
+      <Employee_no>No of Employee: 33</Employee_no>
+      <Employee_Positions>Employee Positions: Marketing director| Marketing Manager| Marketing research analyst| Product Manager </Employee_Positions>
+      <Department_work>Marketing department of the company promotes the business and drives sales of its products or services. It provides the necessary research to identify the target customers and other audiences.The marketing director oversees the marketing techniques, analysis the market and search for the best marketing partners.Marketing departments carry out promotional strategies for products and services and also incorporate promotional activities, such as public relations.</Department_work>
+      <Partners>Partners: Pantheon's| VOIQ | Cero's</Partners>
+    </Department>
+  </Department_name>
+  <Department_name>
+    <Department id="D156">
+      <Name>Human Resource department</Name>
+      <Room>Room no: 03| 15| 17</Room>
+      <Employee_no>No of Employee: 25</Employee_no>
+      <Employee_Positions>Employee Positions: Department head| HR Manager| </Employee_Positions>
+      <Department_work>Human resource is responsible for hiring, training and maintaining employees. They create policies and ensure employees are satisfied with their job. HR plays a important role to recruit the highly qualified software professionals. To hire, train and maintain employees includes assisting top executives to create organizational structure and policies, developing employee incentive and benefit plans and finding resources to attract employees to the company which is all handled by the HR department of JDA.</Department_work>
+    </Department>
+  </Department_name>
+  <Project_manager id="EMP09">
+    <PTitle>Project Manager</PTitle>
+    <Full_name>Full name: Robert Ward</Full_name>
+    <P_Address>Permanent Address: Singhadurbar, Kathmandu</P_Address>
+    <P_Email>Email: gh@gmail.com</P_Email>
+    <Tel_No>Phone: 9806789786</Tel_No>
+    <About_company_project_manager>About Company Project Manager</About_company_project_manager>
+    <Details>Robert ward is the project manager of the company handling all the projects of the two departments. He is a person who is equally responsible for success of the company. He started working with JDA in 2006 and has been working since then. He handles the overall responsibility for the successful initiation, planning, design, execution, monitoring, controlling and closure of the project. He is very skilled and humble person with the passion to work and get involved with the assignments at the fullest. He controls the projects of the Web and Mobile department under the chief executive command. He also controls the team leaders working under both departments.</Details>
+  </Project_manager>
+  <Depart_name>
+    <Depart id="D120">
+      <DN>Mobile Department</DN>
+      <Room_no>Room no: 04|09|10</Room_no>
+      <Employee>No of Employee: 40</Employee>
+      <Employee_Position>Employee Positions: Project administrative assistant| Stock Associate</Employee_Position>
+      <Team_leader>Team Leader: Jack will </Team_leader>
+      <Project_done pdid="P5">
+        <Project_i>Project i: Developed terms and conditions for the software "Learn me" and got involved in licensing. </Project_i>
+        <Project_ii>Project ii: Got involved in making partners for the new software called "Handle" which was developed by the web department. </Project_ii>
+      </Project_done>
+    </Depart>
+  </Depart_name>
+  <Depart_name>
+    <Depart id="D121">
+      <DN>Web Department</DN>
+      <Room_no>Room no: 05|06|07</Room_no>
+      <Employee>No of Employee: 44</Employee>
+      <Employee_Position>Employee positions: Web developer| front-end developer| Back end developer| Interaction designer</Employee_Position>
+      <Team_leader>Team leader: Marry Swift</Team_leader>
+      <Project_done pdid="P65">
+        <Project_i>Project i: Development of the computer software for tax company called "Tax me" to make the detail of the payer online.</Project_i>
+        <Project_ii>Project ii: Development of computer software for Nepali bank limited called "KYC" to update the information of the customer along with their bank ac number</Project_ii>
+      </Project_done>
+      <Partner>Partners: Jazzy software| ABC company</Partner>
+    </Depart>
+  </Depart_name>
+  <Team_lead id="EMP12">
+    <TD>Team lead of Mobile Department</TD>
+    <EName title="Mr.">Full Name: Jack Will</EName>
+    <EAddress>Address: Bhaktapur</EAddress>
+    <Eemail>Email: JW@gmail.com</Eemail>
+    <EPhone>Phone: 986745632</EPhone>
+    <Joined_From>Joined Company From: 2010</Joined_From>
+    <No_of_Projectsdone>No of Projects done: 156</No_of_Projectsdone>
+    <No_of_ControllingEmployees>No of Controlling Employee:30</No_of_ControllingEmployees>
+    <Working_under>Working Under: Project Manager/Executive Chief</Working_under>
+  </Team_lead>
+  <Team_lead id="EMP15">
+    <TD>Team lead of Web Department</TD>
+    <EName title="Mrs.">Full Name: Marry Swift</EName>
+    <EAddress>Address: Lalitpur</EAddress>
+    <Eemail>Email: Ms@gmail.com</Eemail>
+    <EPhone>Phone: 985647822</EPhone>
+    <No_of_Projectsdone>No of projects done: 100</No_of_Projectsdone>
+    <No_of_ControllingEmployees>No of Controlling Employee: 35</No_of_ControllingEmployees>
+    <Working_under>Working Under: Project Manager/ Executive chief</Working_under>
+  </Team_lead>
+  <Footer>
+    <find>Find us on</find>
+    <Map/>
+    <FB/>
+    <Linkdin/>
+    <Twitter/>
+    <Google/>
+    <Copyright>@copyright 2019</Copyright>
+    <Note>We work with client all over. Get in touch with us!</Note>
+  </Footer>
+</It_company>

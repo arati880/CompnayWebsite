@@ -1,0 +1,92 @@
+<!--
+   Author: Arati Ghimire
+-->
+<!ELEMENT It_company (Header,Executive_Chief,Department_name+,Project_manager,Depart_name+,Team_lead+,Footer)>
+<!ELEMENT Header (Company_Details)>
+<!ELEMENT Company_Details (CName,Address,Telephone_Number,Email,Website,Establishment,Logo)>
+<!ELEMENT CName (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Telephone_Number (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>
+<!ELEMENT Establishment (#PCDATA)>
+<!ELEMENT Logo (#PCDATA)>
+
+
+<!ELEMENT Executive_Chief (Title,FullName,P_address,Mail,Phone,Word,His_Words,About,Description)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT FullName (#PCDATA)>
+<!ELEMENT P_address (#PCDATA)>
+<!ELEMENT Mail (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Word (#PCDATA)>
+<!ELEMENT His_Words (#PCDATA)>
+<!ELEMENT About (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+
+
+
+<!ELEMENT Department_name (Department)>
+<!ELEMENT Department (Name,Room,Employee_no,Employee_Positions,Department_work,Partners?)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Room (#PCDATA)>
+<!ELEMENT Employee_no (#PCDATA)>
+<!ELEMENT Employee_Positions (#PCDATA)>
+<!ELEMENT Department_work (#PCDATA)>
+<!ELEMENT Partners (#PCDATA)>
+
+
+<!ELEMENT Project_manager (PTitle,Full_name,P_Address,P_Email,Tel_No,About_company_project_manager,Details)>
+<!ELEMENT PTitle (#PCDATA)>
+<!ELEMENT Full_name (#PCDATA)>
+<!ELEMENT P_Address (#PCDATA)>
+<!ELEMENT P_Email (#PCDATA)>
+<!ELEMENT Tel_No (#PCDATA)>
+<!ELEMENT About_company_project_manager (#PCDATA)>
+<!ELEMENT Details (#PCDATA)>
+
+<!ELEMENT Depart_name (Depart)>
+<!ELEMENT Depart (DN,Room_no,Employee,Employee_Position,Team_leader,Project_done,Partner?)>
+<!ELEMENT DN (#PCDATA)>
+<!ELEMENT Room_no (#PCDATA)>
+<!ELEMENT Employee (#PCDATA)>
+<!ELEMENT Employee_Position (#PCDATA)>
+<!ELEMENT Team_leader (#PCDATA)>
+<!ELEMENT Partner (#PCDATA)>
+<!ELEMENT Project_done (Project_i,Project_ii)>
+<!ELEMENT Project_i (#PCDATA)>
+<!ELEMENT Project_ii (#PCDATA)>
+
+<!ELEMENT Team_lead (TD,EName,EAddress,Eemail,EPhone,Joined_From?,No_of_Projectsdone,No_of_ControllingEmployees,Working_under)>
+<!ELEMENT TD (#PCDATA)>
+<!ELEMENT EName (#PCDATA)>
+<!ELEMENT EAddress (#PCDATA)>
+<!ELEMENT Eemail (#PCDATA)>
+<!ELEMENT EPhone (#PCDATA)>
+<!ELEMENT Joined_From (#PCDATA)>
+<!ELEMENT No_of_Projectsdone (#PCDATA)>
+<!ELEMENT No_of_ControllingEmployees (#PCDATA)>
+<!ELEMENT Working_under (#PCDATA)>
+
+<!ELEMENT Footer (find,Map,FB,Linkdin,Twitter,Google,Copyright,Note)>
+<!ELEMENT find (#PCDATA)>
+<!ELEMENT Map (#PCDATA)>
+<!ELEMENT FB (#PCDATA)>
+<!ELEMENT Linkdin (#PCDATA)>
+<!ELEMENT Twitter (#PCDATA)>
+<!ELEMENT Google (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Note (#PCDATA)>
+
+
+<!ATTLIST It_company Name CDATA #REQUIRED>
+<!ATTLIST Executive_Chief id ID #REQUIRED>
+<!ATTLIST Department id ID #REQUIRED>
+<!ATTLIST Depart id ID #REQUIRED>
+<!ATTLIST Project_manager id ID #REQUIRED>
+<!ATTLIST Project_done pdid ID #REQUIRED>
+<!ATTLIST Team_lead id ID #REQUIRED>
+<!ATTLIST EName title (Mr.|Mrs.) #REQUIRED>
+
+
+
